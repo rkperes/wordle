@@ -4,7 +4,6 @@ go 1.18
 
 require (
 	github.com/charmbracelet/bubbletea v0.22.0
-	github.com/fluhus/gostuff v0.1.13
 	github.com/stretchr/testify v1.8.0
 )
 
