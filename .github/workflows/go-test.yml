@@ -1,4 +1,4 @@
-name: go test
+name: go
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
   pull_request:
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -22,5 +22,5 @@ jobs:
     # - name: Build
     #   run: go build -v ./...
 
-    - name: Test
+    - name: test
       run: go test -v ./...
